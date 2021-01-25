@@ -1,0 +1,25 @@
+.logo {
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 34px 80px;
+  color: #171717;
+  align-items: center;
+}
+
+.header-menu {
+  display: flex;
+  column-gap: 20px;
+  font-weight: 400;
+  font-size: 14px;
+  align-items: center;
+}
+
+.menu-item:hover {
+  color: #c9a96e;
+  cursor: pointer;
+}
