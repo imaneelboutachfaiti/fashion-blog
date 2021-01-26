@@ -1,2 +1,31 @@
-.content-image {
+.main-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+}
+.main-content-section {
+  position: relative;
+}
+
+.main-content {
+  color: #ffffff;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  grid-row-gap: 15px;
+  width: 50%;
+  text-align: left;
+  bottom: 60px;
+  right: 42%;
+}
+
+.image-text {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.main-text {
+  display: flex;
+  grid-column-gap: 10px;
 }
