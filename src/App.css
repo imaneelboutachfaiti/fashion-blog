@@ -7,9 +7,22 @@
   margin: 0 auto;
 }
 
+.posts-container {
+  max-width: 1170px;
+  margin:0 auto
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.posts {
+  display: grid;
+  grid-template-columns: 370px 370px;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  margin-top: 60px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
