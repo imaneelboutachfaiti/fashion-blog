@@ -7,13 +7,13 @@ interface props {
   date: string;
   author: string;
   image: string;
-  highlited: boolean;
+  highlighted: boolean;
   comments?: string;
   paragraph?: string;
 }
 
 export const Post: FC<props> = ({
-  highlited,
+  highlighted,
   paragraph,
   category,
   comments,
@@ -22,9 +22,9 @@ export const Post: FC<props> = ({
   image,
   title,
 }) => {
-  const className = highlited ? "highlighted-post" : "post-content";
+  const className = highlighted ? "highlighted-post" : "post-content";
   const displayClass = comments && paragraph ? "visible" : "hidden";
-  const contentPadding = highlited ? "content" : "";
+  const contentPadding = highlighted ? "content" : "";
   return (
     <div className={className}>
       <img src={image} alt="post-image" />

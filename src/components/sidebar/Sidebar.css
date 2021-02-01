@@ -1,0 +1,36 @@
+.author-name {
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 20px;
+  display: block;
+}
+
+.sidebar {
+  color: #171717;
+}
+
+.speciality {
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: center;
+  color: #b1b1b1;
+}
+
+.author-paragraph {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: 666666;
+  margin: 15px 0 15px 0;
+}
+
+.sidebar-box {
+  margin-top: 20px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.box-content {
+  padding: 0 20px 14px 20px;
+}
