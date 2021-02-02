@@ -38,6 +38,12 @@
   padding-right: 126px;
 }
 
+.post-title {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+}
+
 .hidden {
   display: none;
 }

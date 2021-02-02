@@ -30,7 +30,7 @@ export const Post: FC<props> = ({
       <img src={image} alt="post-image" />
       <div className={contentPadding}>
         <span className="category">{category}</span>
-        <h2>{title}</h2>
+        <h2 className="post-title">{title}</h2>
         <div className="description">
           <span>{date}</span>
           <div>

@@ -31,7 +31,6 @@ export const App = () => {
             author="Rickie Baroch"
             image={PostImage1}
           />
-
           <Post
             highlighted={false}
             category="sport"
