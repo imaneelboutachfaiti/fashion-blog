@@ -15,12 +15,13 @@ import instagramLogo from "../../images/instagram.png";
 import youtubeLogo from "../../images/youtube.png";
 import googlePlusLogo from "../../images/googleplus.png";
 import { Tags } from "../tags/tags";
+
 export const Sidebar = () => {
   return (
     <div className="sidebar">
       <Button ButtonText="About the author" ButtonType="WhiteButton" />
       <div className="sidebar-box author-section">
-        <img src={authorImage} />
+        <img src={authorImage} alt="author image" />
         <div className="box-content">
           <span className="author-name">Kate Willems</span>
           <span className="speciality">Food & cooking bloger</span>
@@ -127,7 +128,7 @@ export const Sidebar = () => {
         </div>
       </div>
       <Button ButtonText="Tags" ButtonType="WhiteButton" />
-      <Tags/>
+      <Tags />
     </div>
   );
 };

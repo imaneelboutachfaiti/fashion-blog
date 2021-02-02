@@ -1,6 +1,5 @@
 .white-button {
   color: #171717;
-  border: 1px solid #e5e5e5;
   font-size: 16px;
   line-height: 21px;
   text-align: center;
@@ -10,6 +9,7 @@
   min-width: 270px;
   padding: 10px;
   background-color: #ffffff;
+  border: 1px solid #e5e5e5;
 }
 
 .reading-button {
@@ -17,7 +17,6 @@
   font-size: 12px;
   font-weight: 400;
   line-height: 16px;
-  border: 1px solid #e5e5e5;
   cursor: pointer;
   outline: none;
 }

@@ -17,6 +17,7 @@ import PostImage11 from "./images/main-post.png";
 import { Sidebar } from "./components/sidebar/Sidebar";
 import { Pagination } from "./components/pagination/Pagination";
 import { InstagramPhotos } from "./components/instagramPhotos/InstagramPhotos";
+import { Footer } from "./components/footer/Footer";
 
 export const App = () => {
   return (
@@ -124,6 +125,7 @@ export const App = () => {
         <Sidebar />
       </div>
       <InstagramPhotos />
+      <Footer />
     </div>
   );
 };

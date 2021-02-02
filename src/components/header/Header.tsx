@@ -1,8 +1,10 @@
+import React from "react";
+import { Logo } from "../logo/Logo";
 import "./Header.css";
 export const Header = () => {
   return (
     <header className="header-section">
-      <span className="logo">Fashion</span>
+      <Logo />
       <nav className="header-menu">
         <a className="menu-item">Home</a>
         <a className="menu-item">Recipes</a>

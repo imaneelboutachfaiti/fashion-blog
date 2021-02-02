@@ -1,8 +1,6 @@
-import { isPropertySignature } from "typescript";
-
 import { FC } from "react";
-import { count } from "console";
 import "./Pagination.css";
+
 interface props {
   count: number;
 }

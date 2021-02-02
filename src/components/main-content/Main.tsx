@@ -8,7 +8,7 @@ export const Main = () => {
         <img className="content-image" src={contentImage} alt="content-image" />
       </div>
       <div className="main-content">
-        <span className="image-text">Vehicle</span>
+        <span className="image-text uppercase">Vehicle</span>
         <h1 className="main-title">
           One of Saturn’s largest rings may be newer than anyone
         </h1>

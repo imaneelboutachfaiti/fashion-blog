@@ -3,6 +3,7 @@
   font-size: 40px;
   line-height: 50px;
 }
+
 .main-content-section {
   position: relative;
 }
@@ -23,6 +24,10 @@
   font-size: 14px;
   line-height: 18px;
   font-weight: 400;
+}
+
+.uppercase {
+  text-transform: uppercase;
 }
 
 .main-text {
