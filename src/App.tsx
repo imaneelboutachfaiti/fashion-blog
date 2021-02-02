@@ -16,6 +16,7 @@ import PostImage10 from "./images/post10.png";
 import PostImage11 from "./images/main-post.png";
 import { Sidebar } from "./components/sidebar/Sidebar";
 import { Pagination } from "./components/pagination/Pagination";
+import { InstagramPhotos } from "./components/instagramPhotos/InstagramPhotos";
 
 export const App = () => {
   return (
@@ -120,8 +121,9 @@ export const App = () => {
           />
           <Pagination count={8}></Pagination>
         </div>
-        <Sidebar></Sidebar>
+        <Sidebar />
       </div>
+      <InstagramPhotos />
     </div>
   );
 };

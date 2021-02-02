@@ -1,0 +1,19 @@
+.photos-section {
+  display: flex;
+  grid-column-gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  grid-row-gap: 20px;
+}
+
+.instagram-photos {
+  margin-top: 80px;
+  padding: 0 20px;
+}
+
+.photos-paragraph {
+  margin-bottom: 40px;
+  font-size: 24px;
+  line-height: 31px;
+  font-weight: 400;
+}
