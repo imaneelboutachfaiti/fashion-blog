@@ -1,0 +1,40 @@
+.pagination {
+  border: 1px solid #e5e5e5;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px 0 20px;
+  color: #171717;
+  font-size: 16px;
+  line-height: 16px;
+  box-sizing: border-box;
+}
+
+.older-post {
+  color: #a2a2a2;
+}
+
+.pagination-button {
+  background-color: transparent;
+  padding: 18px 0;
+}
+
+.pagination-section {
+  margin-top: 40px;
+  grid-column: 1 / span 2;
+  border: none;
+  padding: 0 150px;
+}
+
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.next-arrow {
+  padding-left: 10px;
+}
+
+.previous-arrow {
+  padding-right: 10px;
+}

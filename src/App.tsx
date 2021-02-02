@@ -15,6 +15,7 @@ import PostImage9 from "./images/post9.png";
 import PostImage10 from "./images/post10.png";
 import PostImage11 from "./images/main-post.png";
 import { Sidebar } from "./components/sidebar/Sidebar";
+import { Pagination } from "./components/pagination/Pagination";
 
 export const App = () => {
   return (
@@ -117,6 +118,7 @@ export const App = () => {
             author="Rickie Baroch"
             image={PostImage10}
           />
+          <Pagination count={8}></Pagination>
         </div>
         <Sidebar></Sidebar>
       </div>
