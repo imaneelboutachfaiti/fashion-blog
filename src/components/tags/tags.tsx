@@ -1,29 +1,14 @@
-import { Fragment } from "react";
 import "./tags.css";
+import { tagsList } from "../Data/Data";
 
-const tags = [
-  "Business",
-  "Freelance",
-  "Money",
-  "Experience",
-  "Lifestyle",
-  "SEO",
-  "Wordpress",
-  "Marketing",
-  "UX",
-  "Modern",
-  "Success",
-  "Nature",
-];
 export const Tags = () => {
-  const tagsList = (
+  return (
     <div className="tags">
-      {tags.map((tag) => (
+      {tagsList.map((tag) => (
         <span className="tag-item" key={tag}>
           {tag}
         </span>
       ))}
     </div>
   );
-  return <Fragment>{tagsList}</Fragment>;
 };

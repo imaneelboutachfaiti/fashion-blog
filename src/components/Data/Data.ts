@@ -15,14 +15,15 @@ import PostImage8 from "../../images/post8.png";
 import PostImage9 from "../../images/post9.png";
 import PostImage10 from "../../images/post10.png";
 import PostImage11 from "../../images/main-post.png";
-
-export const navigationList = [
-  "Home",
-  "Recipes",
-  "Article",
-  "Contact",
-  "Purchase",
-];
+import photo1 from "../../images/photo1.png";
+import photo2 from "../../images/photo2.png";
+import photo3 from "../../images/photo3.png";
+import photo4 from "../../images/photo4.png";
+import photo5 from "../../images/photo5.png";
+import photo6 from "../../images/photo6.png";
+import featuredPost1 from "../../images/featured-post1.png";
+import featuredPost2 from "../../images/featured-post2.png";
+import featuredPost3 from "../../images/featured-post3.png";
 
 interface Post {
   category: string;
@@ -34,6 +35,57 @@ interface Post {
   comments?: string;
   paragraph?: string;
 }
+
+export const navigationList = [
+  "Home",
+  "Recipes",
+  "Article",
+  "Contact",
+  "Purchase",
+];
+
+export const tagsList = [
+  "Business",
+  "Freelance",
+  "Money",
+  "Experience",
+  "Lifestyle",
+  "SEO",
+  "Wordpress",
+  "Marketing",
+  "UX",
+  "Modern",
+  "Success",
+  "Nature",
+];
+
+export const featuredPostsList: Post[] = [
+  {
+    highlighted: false,
+    category: "jeans",
+    title: "One of Saturn’s largest rings may be newer than anyone",
+    date: "June 6, 2019",
+    author: "Rickie Baroch",
+    image: featuredPost1,
+  },
+  {
+    highlighted: false,
+    category: "city",
+    title: "One of Saturn’s largest rings may be newer than anyone",
+    date: "June 6, 2019",
+    author: "Rickie Baroch",
+    image: featuredPost2,
+  },
+  {
+    highlighted: false,
+    category: "Photography",
+    title: "One of Saturn’s largest rings may be newer than anyone",
+    date: "June 6, 2019",
+    author: "Rickie Baroch",
+    image: featuredPost3,
+  },
+];
+export const instagramPothos = [photo1, photo2, photo3, photo4, photo5, photo6];
 
 export const postsList: Post[] = [
   {

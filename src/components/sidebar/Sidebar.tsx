@@ -1,9 +1,7 @@
 import "./Sidebar.css";
 import { Button } from "../button/Button";
 import authorImage from "../../images/author.png";
-import featuredPost1 from "../../images/featured-post1.png";
-import featuredPost2 from "../../images/featured-post2.png";
-import featuredPost3 from "../../images/featured-post3.png";
+import { featuredPostsList } from "../Data/Data";
 import { Post } from "../post/Post";
 import facebookLogo from "../../images/facebook.png";
 import pinterestLogo from "../../images/pinterest.png";
@@ -15,6 +13,7 @@ import instagramLogo from "../../images/instagram.png";
 import youtubeLogo from "../../images/youtube.png";
 import googlePlusLogo from "../../images/googleplus.png";
 import { Tags } from "../tags/tags";
+import { title } from "process";
 
 export const Sidebar = () => {
   return (
@@ -34,36 +33,18 @@ export const Sidebar = () => {
       </div>
       <div className="featured-posts">
         <Button ButtonText="Featured posts" ButtonType="WhiteButton" />
-        <div className="sidebar-box">
-          <Post
-            highlighted={false}
-            category="jeans"
-            title="One of Saturn’s largest rings may be newer than anyone"
-            date="June 6, 2019"
-            author="Rickie Baroch"
-            image={featuredPost1}
-          />
-        </div>
-        <div className="sidebar-box">
-          <Post
-            highlighted={false}
-            category="city"
-            title="One of Saturn’s largest rings may be newer than anyone"
-            date="June 6, 2019"
-            author="Rickie Baroch"
-            image={featuredPost2}
-          />
-        </div>
-        <div className="sidebar-box">
-          <Post
-            highlighted={false}
-            category="Photography"
-            title="One of Saturn’s largest rings may be newer than anyone"
-            date="June 6, 2019"
-            author="Rickie Baroch"
-            image={featuredPost3}
-          />
-        </div>
+        {featuredPostsList.map((post) => (
+          <div className="sidebar-box">
+            <Post
+              category={post.category}
+              title={post.title}
+              author={post.author}
+              date={post.date}
+              highlighted={post.highlighted}
+              image={post.image}
+            />
+          </div>
+        ))}
       </div>
       <Button ButtonText="Categories" ButtonType="WhiteButton" />
       <div className="categories">
