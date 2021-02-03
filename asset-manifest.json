@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/fashion-blog/static/css/main.e81cf614.chunk.css",
-    "main.js": "/fashion-blog/static/js/main.1a9ea5dc.chunk.js",
-    "main.js.map": "/fashion-blog/static/js/main.1a9ea5dc.chunk.js.map",
+    "main.js": "/fashion-blog/static/js/main.a8d136b1.chunk.js",
+    "main.js.map": "/fashion-blog/static/js/main.a8d136b1.chunk.js.map",
     "runtime-main.js": "/fashion-blog/static/js/runtime-main.1828418c.js",
     "runtime-main.js.map": "/fashion-blog/static/js/runtime-main.1828418c.js.map",
     "static/js/2.927ff22e.chunk.js": "/fashion-blog/static/js/2.927ff22e.chunk.js",
@@ -39,6 +39,6 @@
     "static/js/runtime-main.1828418c.js",
     "static/js/2.927ff22e.chunk.js",
     "static/css/main.e81cf614.chunk.css",
-    "static/js/main.1a9ea5dc.chunk.js"
+    "static/js/main.a8d136b1.chunk.js"
   ]
 }
