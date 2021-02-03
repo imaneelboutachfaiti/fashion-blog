@@ -1,16 +1,15 @@
 import React from "react";
 import { Logo } from "../logo/Logo";
+import { navigationList } from "../Data/Data";
 import "./Header.css";
 export const Header = () => {
   return (
     <header className="header-section">
       <Logo />
       <nav className="header-menu">
-        <a className="menu-item">Home</a>
-        <a className="menu-item">Recipes</a>
-        <a className="menu-item">Article</a>
-        <a className="menu-item">Contact</a>
-        <a className="menu-item">Purchase</a>
+        {navigationList.map((item) => (
+          <a className="menu-item">{item}</a>
+        ))}
       </nav>
     </header>
   );
